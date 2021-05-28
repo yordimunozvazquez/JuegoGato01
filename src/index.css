@@ -1,0 +1,67 @@
+/* Author: Yordi Muñoz Vazquez */
+/* Subject: Internet Programming - CUCEI / UdeG */
+/* Work 07: React juego de gato */
+h1 {
+    font: 36px "Arial Black", Futura, sans-serif;
+    color: #f7d9aa;
+    text-align: center;
+}
+
+body {
+    font: 20px "Tw Cen MT", Futura, sans-serif;
+    font-weight: bold;
+    margin: 20px;
+    color: #f7d9aa;
+    /*background-color: #FFFFFF;*/
+    background: linear-gradient(#171717, #454140);
+  }
+  
+  ol, ul {
+    padding-left: 30px;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+  }
+  
+  .square {
+    background: #171717;
+    border: 3px solid #FFFFFF;
+    color: #f7d9aa;
+    float: left;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 120px;
+    height: 120px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 120px;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+  
+  /*Display Game - Orientation*/
+  .game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .game-info {
+    margin-top: 40px;
+    margin-left: 20px;
+  }
